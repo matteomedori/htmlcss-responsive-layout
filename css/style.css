@@ -53,6 +53,10 @@ button {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 h2 {
   font-size: 2.5rem;
 }
@@ -144,7 +148,8 @@ MAIN
 /*second section*/
 
 .second-sect,
-.fourth-sect {
+.fourth-sect,
+.sixth-sect {
   background-color: #9792e4;
   padding: 70px 0 65px 0;
   color: white;
@@ -228,6 +233,21 @@ MAIN
   margin-bottom: 30px;
 }
 
+/*sixth section*/
+.sixth-sect h3 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.sixth-sect p {
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.sixth-sect button {
+  margin-bottom: 35px;
+}
+
 /*
 ---------------
 FOOTER
@@ -282,6 +302,10 @@ RESPONSIVE
   .fifth-section .container > div:last-child {
     width: 40%;
   }
+
+  .sixth-sect .container {
+    width: 70%;
+  }
 }
 
 /*da 992px in poi*/
@@ -327,6 +351,10 @@ RESPONSIVE
     width: 70%;
   }
   .fifth-section .container > div:last-child {
+    width: 30%;
+  }
+
+  .sixth-sect .container {
     width: 30%;
   }
 }
