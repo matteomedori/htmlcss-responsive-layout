@@ -48,8 +48,12 @@ button {
   margin: 0 auto;
 }
 
+h3 {
+  font-size: 2.2rem;
+}
+
 h4 {
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 h5 {
@@ -136,7 +140,7 @@ MAIN
   color: white;
 }
 
-.second-sect h4 {
+.second-sect h3 {
   margin-top: 90px;
   margin-bottom: 60px;
 }
@@ -150,6 +154,30 @@ MAIN
   background-color: white;
   border-radius: 45px;
   color: black;
+}
+
+/*third section*/
+.third-sect {
+  padding: 70px 0;
+}
+
+.third-sect h4 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.third-sect p {
+  margin-bottom: 40px;
+}
+
+.third-sect .box {
+  background-color: #9792e4;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.third-sect .box h5 {
+  color: white;
 }
 
 /*
@@ -176,6 +204,14 @@ RESPONSIVE
 
   .first-sect .container .w-33 {
     width: calc((100% - 50px) / 3);
+  }
+
+  .third-sect .box {
+    display: flex;
+  }
+
+  .third-sect .box > div:first-child {
+    width: 30%;
   }
 }
 
