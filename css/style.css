@@ -214,6 +214,20 @@ MAIN
   gap: 30px;
 }
 
+/*fifth section*/
+.fifth-section {
+  padding: 95px 0 80px 0;
+}
+
+.fifth-section p {
+  margin-top: 60px;
+}
+
+.fifth-section h4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /*
 ---------------
 FOOTER
@@ -256,6 +270,18 @@ RESPONSIVE
   .fourth-sect .box-container .box {
     width: calc((100% - 30px) / 2);
   }
+
+  .fifth-section .container {
+    display: flex;
+    gap: 50px;
+  }
+
+  .fifth-section .container > div:first-child {
+    width: 60%;
+  }
+  .fifth-section .container > div:last-child {
+    width: 40%;
+  }
 }
 
 /*da 992px in poi*/
@@ -290,5 +316,17 @@ RESPONSIVE
 
   .fourth-sect .box-container .box {
     width: calc((100% - 60px) / 3);
+  }
+
+  .fifth-section .container {
+    display: flex;
+    gap: 50px;
+  }
+
+  .fifth-section .container > div:first-child {
+    width: 70%;
+  }
+  .fifth-section .container > div:last-child {
+    width: 30%;
   }
 }
