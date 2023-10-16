@@ -16,12 +16,51 @@ COMMON
 ---------------
 */
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  all: unset;
+  background-color: white;
+  color: black;
+  line-height: normal;
+  padding: 10px 18px;
+  border-radius: 25px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /*
 ---------------
 HEADER
 ---------------
 */
 
+header {
+  background-color: #0084fd;
+  height: 75px;
+  line-height: 75px;
+  color: white;
+  font-size: 20px;
+}
+
+header .nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .nav-bar ul {
+  display: none;
+}
 /*
 ---------------
 MAIN
@@ -39,3 +78,26 @@ FOOTER
 RESPONSIVE
 ---------------
 */
+
+/*da 768px in poi*/
+@media screen and (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/*da 992px in poi*/
+@media screen and (min-width: 992px) {
+  .container {
+    width: 60%;
+  }
+
+  header .nav-bar ul {
+    display: flex;
+    gap: 30px;
+  }
+
+  #list-symbol {
+    display: none;
+  }
+}
