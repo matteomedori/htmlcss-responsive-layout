@@ -43,9 +43,18 @@ button {
   color: white;
 }
 
+.violet-btn {
+  background-color: #9792e4;
+  color: white;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -134,7 +143,8 @@ MAIN
 
 /*second section*/
 
-.second-sect {
+.second-sect,
+.fourth-sect {
   background-color: #9792e4;
   padding: 70px 0 65px 0;
   color: white;
@@ -180,6 +190,30 @@ MAIN
   color: white;
 }
 
+/*fourth section*/
+
+.fourth-sect h3 {
+  margin-bottom: 70px;
+}
+
+.fourth-sect .box {
+  padding: 35px 20px;
+  background-color: white;
+  border-radius: 45px;
+  color: black;
+}
+
+.fourth-sect .box h5 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.fourth-sect .box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 /*
 ---------------
 FOOTER
@@ -213,6 +247,15 @@ RESPONSIVE
   .third-sect .box > div:first-child {
     width: 30%;
   }
+
+  .fourth-sect .box-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .fourth-sect .box-container .box {
+    width: calc((100% - 30px) / 2);
+  }
 }
 
 /*da 992px in poi*/
@@ -238,5 +281,14 @@ RESPONSIVE
 
   .second-sect .container > div:nth-child(2) {
     margin-top: 150px;
+  }
+
+  .fourth-sect .box-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .fourth-sect .box-container .box {
+    width: calc((100% - 60px) / 3);
   }
 }
