@@ -205,10 +205,27 @@ MAIN
   background-color: #9792e4;
   color: white;
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .third-sect .box h5 {
   color: white;
+}
+
+.circle-img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.circle-img img {
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
 }
 
 /*fourth section*/
@@ -304,11 +321,21 @@ RESPONSIVE
   }
 
   .third-sect .box {
-    display: flex;
+    flex-direction: row;
+    text-align: left;
   }
 
   .third-sect .box > div:first-child {
-    width: 30%;
+    width: 65%;
+  }
+
+  .third-sect .box > div:last-child {
+    padding-left: 20px;
+    line-height: 30px;
+  }
+
+  .third-sect .circle-img {
+    margin-bottom: 0;
   }
 
   .fourth-sect .box-container {
@@ -380,6 +407,10 @@ RESPONSIVE
     width: 50%;
   }
 
+  .third-sect .box > div:first-child {
+    width: 35%;
+  }
+
   .fourth-sect .box-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -414,5 +445,9 @@ RESPONSIVE
 @media screen and (min-width: 1160px) {
   .container {
     max-width: 1140px;
+  }
+
+  .third-sect .box > div:first-child {
+    width: 23%;
   }
 }
