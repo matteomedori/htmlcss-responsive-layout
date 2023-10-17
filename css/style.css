@@ -356,6 +356,11 @@ footer {
 footer p:first-of-type {
   margin-bottom: 70px;
 }
+
+footer a {
+  text-decoration: underline;
+  color: #9792e4;
+}
 /*
 ---------------
 RESPONSIVE
