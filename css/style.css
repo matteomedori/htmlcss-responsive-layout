@@ -170,6 +170,16 @@ MAIN
   margin-bottom: 35px;
 }
 
+.second-sect .box img {
+  margin-bottom: 25px;
+}
+
+.second-sect .violet-btn {
+  color: black;
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+
 .box {
   padding: 35px 20px;
   background-color: white;
@@ -351,19 +361,23 @@ RESPONSIVE
     display: flex;
   }
 
-  #phone-img {
-    width: 90%;
-    position: relative;
-    top: 47px;
+  .phone-flex {
+    display: flex;
+    align-items: end;
   }
+
+  #phone-img {
+    width: 100%;
+  }
+
   .second-sect .container {
     padding: 0 130px;
     display: flex;
-    gap: 50px;
+    gap: 65px;
   }
 
-  .second-sect .container > div:nth-child(2) {
-    margin-top: 150px;
+  .second-sect .container > div {
+    width: 50%;
   }
 
   .fourth-sect .box-container {
@@ -393,5 +407,12 @@ RESPONSIVE
 
   footer .container {
     max-width: 425px;
+  }
+}
+
+/*da 992px in poi*/
+@media screen and (min-width: 1160px) {
+  .container {
+    max-width: 1140px;
   }
 }
