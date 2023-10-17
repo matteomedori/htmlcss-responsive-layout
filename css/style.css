@@ -314,6 +314,11 @@ MAIN
 .sixth-sect h3 {
   margin-top: 30px;
   margin-bottom: 60px;
+  line-height: 35px;
+}
+
+.sixth-sect h1 {
+  color: #fdc15f;
 }
 
 .sixth-sect p {
@@ -323,6 +328,17 @@ MAIN
 
 .sixth-sect button {
   margin-bottom: 35px;
+  padding: 25px 75px;
+  border-radius: 40px;
+  color: #9792e4;
+}
+
+.sixth-sect i {
+  font-size: 5px;
+}
+
+.sixth-sect a {
+  text-decoration: underline;
 }
 
 /*
@@ -418,6 +434,10 @@ RESPONSIVE
 
   .fifth-section .circle-img {
     margin-top: 0;
+  }
+
+  .sixth-sect h1 {
+    font-size: 4.5rem;
   }
 
   footer .container {
