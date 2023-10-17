@@ -232,12 +232,13 @@ MAIN
 
 .fourth-sect h3 {
   margin-bottom: 70px;
+  line-height: 40px;
 }
 
 .fourth-sect .box {
-  padding: 35px 20px;
+  padding: 45px 30px;
   background-color: white;
-  border-radius: 45px;
+  border-radius: 25px;
   color: black;
 }
 
@@ -246,10 +247,23 @@ MAIN
   margin-bottom: 30px;
 }
 
+.fourth-sect h2,
+.fourth-sect h5 {
+  color: #9792e4;
+}
+
+.fourth-sect p {
+  margin-bottom: 30px;
+}
+
 .fourth-sect .box-container {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.fourth-sect .violet-btn {
+  padding: 10px 40px;
 }
 
 /*fifth section*/
@@ -306,6 +320,10 @@ RESPONSIVE
 @media screen and (min-width: 768px) {
   .container {
     max-width: 745px;
+  }
+
+  h2 {
+    font-size: 4rem;
   }
 
   .first-sect .container .w-66 {
