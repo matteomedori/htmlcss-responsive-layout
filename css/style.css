@@ -278,6 +278,36 @@ MAIN
 .fifth-section h4 {
   margin-top: 30px;
   margin-bottom: 30px;
+  color: #9792e4;
+  line-height: 35px;
+}
+
+.fifth-section h2 {
+  color: #9792e4;
+}
+
+.fifth-section .violet-btn i {
+  margin-right: 10px;
+}
+
+.fifth-section .container > div:last-child {
+  position: relative;
+}
+
+.fifth-section .circle-img {
+  margin-top: 50px;
+}
+
+.fifth-section .circle-img img {
+  margin-left: 0;
+}
+
+.fifth-section .circle-img i {
+  position: absolute;
+  font-size: 50px;
+  top: 0;
+  right: 120px;
+  color: #9792e4;
 }
 
 /*sixth section*/
@@ -381,6 +411,15 @@ RESPONSIVE
     max-width: 565px;
   }
 
+  .fifth-section .circle-img i {
+    top: 0px;
+    right: 80px;
+  }
+
+  .fifth-section .circle-img {
+    margin-top: 0;
+  }
+
   footer .container {
     max-width: 420px;
   }
@@ -467,5 +506,10 @@ RESPONSIVE
 
   .third-sect .box > div:first-child {
     width: 23%;
+  }
+
+  .fifth-section .circle-img i {
+    top: 0px;
+    right: 140px;
   }
 }
